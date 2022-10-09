@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+.sidebar {
+  position: fixed;
+  width: 300px;
+  height: auto;
+  left: -300px;
+  background: ghostwhite;
+  transition: left 0.4s ease;
+}
+.text {
+  position: relative;
+}
+.div-input {
+  position: relative;
+  margin-top: 2px;
+  width: 100%;
+}
+.div-input .input-search {
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 97%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.div-input span svg {
+  position: absolute;
+}
+.div-input span #menu {
+  top: 6px;
+  padding-left: 10px;
+}
+.div-input span #search {
+  top: 6px;
+  right: 50px;
+  padding-right: 5px;
+}
+.div-input span #clear-24px {
+  top: 6px;
+  right: 20px;
+  border-left: 1px solid rgb(131, 126, 126);
+  padding-left: 5px;
+}
+.div-img {
+  position: relative;
+  width: 96%;
+  height: 240px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 5px;
+  border: none;
+  text-align: center;
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+}
+.div-img #Group_4175 {
+  position: absolute;
+  top: 53px;
+  left: 84px;
+}
+.div-h1 {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.div-h1 h1 {
+  font-size: 22px;
+}
+.div-h1 span {
+  color: #0000008a;
+  font-size: 14px;
+}
+.div-function {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d8d7d78a;
+  border-top: 1px solid #d8d7d78a;
+  position: relative;
+}
+.div-function ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  position: relative;
+}
+.div-function ul li #directions-24px {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+}
+.div-function ul li #qr-code {
+  position: absolute;
+  top: 10px;
+  right: 143px;
+}
+.div-function ul li #share-24px {
+  position: absolute;
+  top: 10px;
+  right: 42px;
+}
+.ul-text {
+  display: flex;
+  font-size: 14px;
+  justify-content: center !important;
+  text-align: center;
+}
+.ul-text li {
+  width: 33%;
+}
+.div-chitiet-function {
+  width: 100%;
+  display: inline-block;
+  margin-top: 20px;
+}
+.div-chitiet-function .ul-chitiet {
+  width: 100%;
+}
+.ul-chitiet li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.ul-chitiet li .div-layout {
+  width: 15%;
+  padding-left: 20px;
+}
+.ul-chitiet li .div-p {
+  width: 85%;
+  padding-left: 20px;
+  font-size: 14px;
+}
+.div-btn-edit button {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  background: none;
+  border: 1px solid #e4e4e4;
+  border-radius: 18px;
+  padding: 5px;
+  font: normal normal normal 14px/19px Segoe UI;
+}
+.div-btn-edit button span {
+  font-size: 14px;
+}
+.div-chitiet-diachi {
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.div-chitiet-diachi ul {
+  list-style: none;
+  border-bottom: 1px solid #e4e4e4;
+  border-top: 1px solid #e4e4e4;
+}
+.div-chitiet-diachi ul li {
+  display: flex;
+
+  align-items: center;
+  margin-bottom: 10px;
+}
+.div-chitiet-diachi ul li .div-h-p {
+  font-size: 14px;
+}
+.div-btn-click {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  width: 15px;
+  height: 50px;
+  background: rgb(218, 216, 216);
+  text-align: center;
+  padding-top: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #f2f2f2;
+  transition: left 0.4s ease;
+}
+.div-btn-click.click{
+  left: 320px;
+}
+.sidebar.show{
+  left: 0;
+}
+.div-bg-blue{
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  position: absolute;
+}
+
+.div-hover{
+  /* display: none; */
+  position: fixed;
+  background-color: white;
+}
